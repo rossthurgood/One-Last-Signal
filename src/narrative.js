@@ -51,14 +51,14 @@ export function endingFor(metadata = {}) {
     if (metadata.habitable) {
         return {
             title: "ONE LAST SIGNAL",
-            line: "Green light. Water. Air. A place to begin again. Transmit the coordinates — one last signal home.",
-            question: "They will come. Whatever is already here will be waiting."
+            line: "Green planet. Water. Air. A place to begin again. Transmit the coordinates: one last signal home.",
+            question: "The survivours will come. Whatever is here will be waiting."
         };
     }
     return {
         title: "ONE LAST SIGNAL",
-        line: "The reading is cold. Nothing here will hold life. The signal window is closing.",
-        question: "Do we send the truth — or send them hope?"
+        line: "The reading is dead. Nothing here will hold life, the planet's atmosphere is collapsing. The signal window has closed.",
+        question: "Do we send the survivors truth or send them hope?"
     };
 }
 
