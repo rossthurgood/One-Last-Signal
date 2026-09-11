@@ -4,7 +4,7 @@ export const NARRATIVE = [
         at: "leaveEarth+=0.25",
         hold: 1.0,
         index: "01 / SIGNAL RECEIVED",
-        text: "It reached us through the static — a voice from the far dark. Behind us, Earth is grey and silent. The engines fire one final time."
+        text: "It reached us through the static, a voice from the far dark. Behind us, Earth is grey and silent. The engines fire one final time."
     },
     {
         id: "wreckage",
@@ -46,7 +46,7 @@ export const NARRATIVE = [
     }
 ];
 
-/* Ending copy — chosen by the procedural habitability roll. */
+/* Ending copy, chosen by the procedural habitability roll. */
 export function endingFor(metadata = {}) {
     if (metadata.habitable) {
         return {
